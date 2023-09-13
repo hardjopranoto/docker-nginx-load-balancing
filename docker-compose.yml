@@ -1,6 +1,6 @@
 version: "3"
 services:
-  load-balance:
+  lb:
     restart: "always"
     build: ./lb
     depends_on:
