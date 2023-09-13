@@ -1,6 +1,16 @@
 # Docker Nginx Load Balancing
 Use Nginx with multiple Node.js web server to try load balancing in Docker
 
+## Prerequisite
+A Linux virtual machine running docker services. 
+For the installation instructions, please refer to the following Docker Docs. 
+https://docs.docker.com/engine/install/
+
+You will then need to clone this repository. 
+```
+$ git clone https://github.com/hardjopranoto/nginx-lb
+```
+
 ## Project Structure
 The project structure of the repo.
 ```
@@ -14,6 +24,7 @@ The project structure of the repo.
 | |____nginx.conf
 |____docker-compose.yml
 ```
+
 
 ## Build
 Build up the service.
