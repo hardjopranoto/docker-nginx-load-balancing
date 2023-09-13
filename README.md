@@ -29,15 +29,15 @@ The project structure of the repo.
 ## Build
 Build up the service.
 ```
-$ docker-compose pull
-$ docker-compose build 
-$ docker-compose up -d
+$ docker compose pull
+$ docker compose build 
+$ docker compose up -d
 ```
 
 ## Validate
 Validate that the nodes are up and running.
 ```
-$ docker-compose ps
+$ docker compose ps
 ```
 
 ## Test
@@ -50,7 +50,7 @@ The curl response should show the response alternate between node1 and node2.
 ## Terminate
 You can stop and terminate the containers by running the command below.
 ```
-$ docker-compose stop
-$ docker-compose down
-$ docker-compose rm -rf
+$ docker compose stop
+$ docker compose down
+$ docker compose rm -rf
 ```
