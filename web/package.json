@@ -1,8 +1,7 @@
 {
-    "name": "docker-nginx-load-balancing",
+    "name": "nginx-web",
     "version": "1.0.0",
     "description": "Use Nginx with multiple Node.js web server to try load balancing in Docker",
-    "author": "Nero Chen <nerocub.tw@gmail.com>",
     "main": "server.js",
     "scripts": {
       "start": "node server.js"
