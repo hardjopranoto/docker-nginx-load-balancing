@@ -5,11 +5,11 @@ Use Nginx with multiple Node.js web server to try load balancing in Docker
 The project structure of the repo.
 ```
 .
-|____app
+|____web
 | |____Dockerfile
 | |____package.json
 | |____server.js
-|____nginx
+|____lb
 | |____Dockerfile
 | |____nginx.conf
 |____docker-compose.yml
