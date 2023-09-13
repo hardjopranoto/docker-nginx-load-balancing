@@ -24,5 +24,5 @@ $ docker-compose up --build
 ## Hello Nginx
 You can test the load balancing of nginx by rin the below cmd.
 ```
-$ curl -i http://localhost:8888/
+$ curl -i http://localhost:8080/
 ```
