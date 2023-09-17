@@ -1,5 +1,5 @@
 # Docker Nginx Load Balancing
-Use Nginx with multiple Node.js web server to try load balancing in Docker
+Use Nginx to load balance 2 web server running Nginx in Docker. 
 
 ## Prerequisite
 A Linux virtual machine running docker services. 
