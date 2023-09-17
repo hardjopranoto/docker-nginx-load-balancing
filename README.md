@@ -17,8 +17,6 @@ The project structure of the repo.
 .
 |____web
 | |____Dockerfile
-| |____package.json
-| |____server.js
 |____lb
 | |____Dockerfile
 | |____nginx.conf
@@ -29,8 +27,6 @@ The project structure of the repo.
 ## Build
 Build up the service.
 ```
-$ docker compose pull
-$ docker compose build 
 $ docker compose up -d
 ```
 
@@ -45,12 +41,12 @@ You can test the load balancing of nginx by running the command below.
 ```
 $ curl -i http://localhost:8080/
 ```
-The curl response should show the response alternate between node1 and node2. 
+The curl response should show the response load balance between web1 and web2. 
 
 ## Terminate
 You can stop and terminate the containers by running the command below.
 ```
 $ docker compose stop
 $ docker compose down
-$ docker compose rm -rf
+$ docker rmi $(docker images -a -q)
 ```
